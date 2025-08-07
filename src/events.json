@@ -1,0 +1,80 @@
+[
+
+      {
+    "title": "Team Meeting",
+    "date": "2025-08-7",
+    "startTime": "22:00",
+    "endTime": "23:00",
+    "type": "meeting"
+  },
+  {
+    "title": "Team Meeting",
+    "date": "2025-08-08",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "type": "meeting"
+  },
+  {
+    "title": "Doctor Appointment",
+    "date": "2025-08-08",
+    "startTime": "21:00",
+    "endTime": "22:00",
+    "type": "personal"
+  },
+  {
+    "title": "Project Deadline",
+    "date": "2025-08-09",
+    "startTime": "23:00",
+    "endTime": "23:59",
+    "type": "deadline"
+  },
+  {
+    "title": "Workout Session",
+    "date": "2025-08-10",
+    "startTime": "07:00",
+    "endTime": "08:00",
+    "type": "health"
+  },
+  {
+    "title": "Lunch with Friend",
+    "date": "2025-08-11",
+    "startTime": "12:30",
+    "endTime": "13:30",
+    "type": "personal"
+  },
+  {
+    "title": "Design Review",
+    "date": "2025-08-12",
+    "startTime": "15:00",
+    "endTime": "16:00",
+    "type": "work"
+  },
+  {
+    "title": "Client Call",
+    "date": "2025-08-12",
+    "startTime": "16:00",
+    "endTime": "17:00",
+    "type": "meeting"
+  },
+  {
+    "title": "Code Refactoring",
+    "date": "2025-08-13",
+    "startTime": "09:00",
+    "endTime": "11:00",
+    "type": "development"
+  },
+  {
+    "title": "Birthday Party",
+    "date": "2025-08-14",
+    "startTime": "18:00",
+    "endTime": "21:00",
+    "type": "celebration"
+  },
+  {
+    "title": "Weekend Hike",
+    "date": "2025-08-17",
+    "startTime": "06:00",
+    "endTime": "12:00",
+    "type": "leisure"
+  }
+]
