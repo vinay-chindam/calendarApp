@@ -11,14 +11,19 @@ const DayCell = ({ day, isToday, isCurrentMonth, events }) => {
     const currentMinutes = now.getHours() * 60 + now.getMinutes();
 
     const filteredEvents = events.filter((event) => {
-        if (event.date > currentDateString) return true;
-        if (event.date < currentDateString) return false;
+        const eventDate = new Date(event.date);
+        const eventDateString = eventDate.toISOString().split("T")[0];
 
+        if (eventDateString > currentDateString) return true;
+        if (eventDateString < currentDateString) return false;
+
+        
         const [endHour, endMinute] = event.endTime.split(":").map(Number);
         const eventEndMinutes = endHour * 60 + endMinute;
 
         return eventEndMinutes >= currentMinutes;
     });
+
 
     return (
         <div
