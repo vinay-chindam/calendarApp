@@ -35,9 +35,25 @@ const App = () => {
     }
   };
 
+  const [isDark, setIsDark] = useState(false);
+  const [myStyle,setMyStyle]=useState({backgroundColor:'white',color:'black'})
+
+const toggleMode = () => {
+  setIsDark(prev => !prev);
+  setMyStyle({
+    backgroundColor: isDark ? 'white' : 'black',
+    color: isDark ? 'black' : 'white',
+  });
+};
+
+
+
+
+
   return (
-    <div className="calendar-container" onWheel={handleWheelScroll}>
-      <Sidebar/>
+    <div className="calendar-container" onWheel={handleWheelScroll} style={myStyle}>
+      <button onClick={toggleMode}>Change mode</button>
+      <Sidebar />
       <Header
         currentDate={currentDate}
         onPrev={handlePrevMonth}
